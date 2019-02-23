@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R7">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:text="Broccoli Cappuccino Recipe"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/broccolicappuccino"
+        android:layout_width="match_parent"
+        android:layout_height="377dp" />
+    <TextView
+        android:text="Ingredients"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="\nBroccoli separated into florets 1 medium\n
+Vegetable stock 2 cups\n
+Butter 3 tablespoons\n
+Refined flour (maida) 1 tablespoon\n
+Milk 4 cups\n
+Salt to taste\n
+Crushed black peppercorns 1 teaspoon + for sprinkling\n"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Method"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="
+Heat vegetable stock in a deep-nonstick pan. Add broccoli florets, mix well and cook on low heat for 4-5 minutes.
+Heat 2 tablespoons butter in another non-stick pan. Add refined flour and mix well. Saute for 2 minutes. Add 3 cups milk and stir continuously so that there are no lumps formed.
+Add salt and 1 teaspoon crushed peppercorns, mix and simmer for 4-5 minutes.
+Once the broccoli is cooked, switch off heat, strain the broccoli florets and put into a mixer jar. Add a little of the stockand grind to a fine puree.
+Strain the pureeand into the white sauce, mix well and cook for 2-3 minutes.
+Heat remaining milk in another deep non-stick pan. Add remaining butter and bring it to a boil. Take the pan off the heat and blend with a hand blender to create foam.
+Pour broccoli soup into teacups, top with foam and sprinkle crushed peppercorns on top. Serve immediately.  "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

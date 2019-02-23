@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lahori_paneer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.dell.first3.LahoriPaneer">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Lahori Paneer Kofta Recipe"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:background="@drawable/lahoripanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:text="\nPaneer (cottage cheese) 100 grams \n
+Cashewnut paste 3 tablespoons \n
+Potatoes boiled, peeled and grated 2 medium \n
+Cardamom powder 1 teaspoon \n
+Mace powder 1 teaspoon \n
+Raisins 1 teaspoon \n
+Almonds chopped 1 tablespoon \n
+Salt to taste \n
+Garam masala powder 1 teaspoon \n
+Cornflour/ corn starch 1 tablespoon \n
+Oil 1 tablespoon + to deep fry \n
+Ginger-garlic paste 1 teaspoon \n
+Fresh tomato puree 1 cup \n
+Coriander powder 1 teaspoon \n
+Red chilli powder 1 teaspoon \n
+Turmeric powder ½ teaspoon \n
+Ginger juliennes for garnishing \n"
+    android:layout_width="match_parent"
+    android:textSize="20dp"
+    android:layout_height="match_parent" />
+    <TextView
+        android:text="Method"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:text="To make koftas, grated cottage cheese in a bowl, add potatoes, some cardamom powder, mace powder, cashewnuts, raisins, almonds, salt and garam masala powder and mix well.Heat sufficient oil in a kadai.
+Shape the mixture into small balls. Roll each ball, coat with cornflour and deep-fry till lightly browned and crisp. Drain absorbent paper.
+Heat oil in a non-stick pan, add onion paste and sauté till lightly browned.
+Add ginger-garlic paste and sauté for a minute.
+Add tomato puree and cook for 5-7 minutes or till tomatoes are cooked.
+Add coriander powder, red chilli powder, turmeric powder and mix well. Add ½ cup water and cook till the masala is cooked.
+Add cashewnut paste and mix well. Add 2 cups water and mix well. Add salt and mix. Cook for 5-7 minutes.
+Add cardamom powder, mace powder and garam masala powder and mix well.Add koftas and mix gently. Cook on simmer for 1 minute.
+Take off the heat and add the fresh cream and mix.Transfer in a serving bowl. Garnish with ginger juliennes and serve."
+    android:layout_width="match_parent"
+    android:textSize="20dp"
+    android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

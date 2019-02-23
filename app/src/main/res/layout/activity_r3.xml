@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R3">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Watermelon Agua Fresca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/watermelon"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:id="@+id/imageView6" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\n8 cups watermelon pieces (about 2 1/2 pounds), plus 8 small wedges\n
+1 cup silver tequila\n
+1/4 cup triple sec\n
+4 - 6 limes, cut into wedges\n
+Ice, for serving\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Method"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="Using a blender or food processor, puree the watermelon pieces in batches; strain into a large pitcher.
+ Stir in the tequila and triple sec and refrigerate until cold, about 1 hour. Squeeze a few lime wedges into the agua fresca. Serve over ice, with additional lime and watermelon wedges on the side."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>
+
+</ScrollView>

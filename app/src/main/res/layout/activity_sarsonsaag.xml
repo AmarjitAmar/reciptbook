@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sarsonsaag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Sarsonsaag">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Sarson ka Saag Recipe"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/sarsokasagg"
+        android:layout_width="match_parent"
+        android:layout_height="314dp" />
+    <TextView
+        android:text="Ingredients "
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\nMustard chopped 2 cups\n
+Spinach leaves (palak) chopped 1 cup\n
+Ghee 2 tablespoons\n
+Dried red chillies 4\n
+Ginger-garlic-green chilli paste 1 tablespoon\n
+Salt to taste\n
+Gram flour (besan) 1 tablespoon\n
+Butter 2 tablespoons\n
+Maize flour (makai ka atta) 2 cups\n
+Refined flour (maida) ½ cup + for dusting\n
+Salt to taste\n
+Red chilli powder 1 teaspoon\n
+Carom seeds (ajwain) 1 teaspoon\n
+Ghee for cooking\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:text="Method"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="\n
+Place mustard leaves and spinach leaves in a deep non-stick pan. Add 2 cups water and place the pan on heat. Let it boil for 10 minutes.
+Remove from heat and strain. Reserve the stock. Put the boiled greens in a bowl and mash with a masher.
+Heat ghee in a non-stick pan. Break the dried red chillies and add, saute till their seeds crackle.
+Add ginger-garlic-green chilli paste, mix well and sauté for a minute. Add mashed greens, mix and sauté well.
+Add reserved stock, little by little, mix, cover and cook on low heat for 5-10 minutes. Use the entire stock reserving about 3-4 tablespoons.
+Add salt, mix well, cover and cook for 2 minutes.
+Dry roast gram flour in a small pan on low heat till fragrant. Add it to the reserved stock, mix well and add to the pan with the greens. Mix well, cover and cook for a minute.
+Mix maize flour, refined flour, salt, red chilli powder and carom seeds in a bowl. Add sufficient water and knead into a soft dough.
+Add butter to the greens and mix well. Remove from heat and set aside.
+Heat a non-stick tawa.
+Divide the dough into equal portions, wet your palms and shape the portions into balls.
+Dust a worktop with refined flour, place the balls on it and flatten them to make medium thick rotis.
+Place roti, one by one, on the hot tawa and cook the underside for a minute. Flip, drizzle some ghee on top and cook, turning sides, till both the sides are evenly done.
+Serve hot sarson ka saag with makai ki roti."
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

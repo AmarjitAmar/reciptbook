@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rawmango"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Rawmango">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Raw Mango Curry Recipe"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/rowmango"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:text="Ingredients "
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\nRaw mangoes peeled cut into wedges 4\n
+Oil 1 tablespoon\n
+Mustard seeds 1 teaspoon\n
+Cumin seeds 1 teaspoon\n
+Curry leaves 10\n
+Green cardamoms 2-3\n
+Cinnamon 1 inch stick\n
+Onion chopped 1 medium\n
+Turmeric powder 1 teaspoon\n
+Red chilli powder 1 teaspoon\n
+Curry powder 1 teaspoon\n
+Ginger-garlic paste 1 teaspoon\n
+Fresh coconut scraped 1/2 cup\n
+Coriander seeds roasted 1 tablespoon\n
+Dried red chillies 2-3\n
+brown sugar/jaggery 1 teaspoon\n
+Salt to taste\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:text="Method"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n
+Heat oil in a non-stick pan, add mustard seeds and cumin seeds and let them splutter. Add curry leaves, green cardamoms and cinnamon and mix.Add onion and sauté till golden.
+Add turmeric powder, red chilli powder and curry powder and mix well. Add ginger-garlic paste and sauté till the raw aroma is gone.
+Add mango and mix. Add about half a cup of water, reduce heat and cook on medium heat for three to four minutes.
+Put coconut, coriander seeds and red chillies in a mixer jar and grind to a smooth paste with a little water.
+Add ground paste to the curry and mix well.Add brown sugar and salt and mix well.Continue cooking for a minute.
+Transfer into a serving bowl and serve hot with steamed rice."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</LinearLayout>
+</ScrollView>

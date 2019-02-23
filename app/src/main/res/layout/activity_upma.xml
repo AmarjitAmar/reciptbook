@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upma"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Upma">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Upma Fritters Recipe"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/upmafritters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:text="Ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:text="\nSemolina (rawa/suji) 1 cup\n
+Oil ½ tablespo + to deep fry\n
+Mustard seeds 1 teaspoon\n
+Asafoetida ¼ teaspoon\n
+Green chillies finely chopped 1-2\n
+Curry leaves 7-8\n
+Dried red chillies 3-4\n
+Onion finely chopped 1 medium\n
+French beans stringed and finely chopped 7-8\n
+Carrot peeled and grated 1 medium\n
+Ginger finely chopped 1 inch\n
+Salt to taste\n
+Fresh coriander leaves chopped 1 tablespoon\n"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Method"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n
+Heat oil in a non-stick pan. Add mustard seeds and let them splutter.
+Add asafoetida, green chillies, curry leaves and dried red chillies and mix. Add onions, mix and sauté till golden.
+Add French beans and carrot, mix and sauté for 2 minutes.
+Add ginger, mix and sauté for 1minute. Add semolina, mix and cook for 1 minute.
+Add salt, mix and cook for 1minute. Add 2 cups water, stir to mix and cook till dry.
+Add coriander leaves and mix well. Transfer onto a plate and set aside to cool.
+Heat sufficient oil in a pan.
+Divide the prepared upma into equal portions, shape each portion into a ball and deep-fry in hot oil till golden. Drain on absorbent paper.
+Serve hot with green chutney."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upma"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Upma">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Jain Bread Cutlet Recipe "
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="@drawable/jainbreadcutlet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:text="Ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="20dp"
+            android:text="\nWhite bread slices 6-8\n
+Oil for shallo for greasing\n
+Turmeric powder ¼ teaspoon\n
+Garam masala powder 1 teaspoon\n
+White sesame seeds 1 tablespoon\n
+Green chillies finely chopped 1-2\n
+Sugar 1 teaspoon\n
+Salt to taste\n
+Lemon juice 1 teaspoon\n
+Fresh coriander leaves chopped 1 tablespoon\n"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:text="Method"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="20dp"
+            android:text="\nDiscard the edges of bread slices. Roughly chop the breads and transfer in a bowl. Add little water and crush it completely.
+Add turmeric powder, garam masala powder, sesame seeds, green chillies, sugar, salt, lemon juice and coriander. Mix well and knead into a soft dough.
+Grease the sides of heart shaped cookie cutter with oil, place a portion of dough on a worktop and cut out heart shaped cutlet using the cookie cutter. Similarly prepare the rest.
+Heat oil in a non-stick pan. Place the cutlets and shallow-fry on low heat till both sides are crisp and brown. Drain on absorbent paper.
+Serve hot along with tomato ketchup."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>

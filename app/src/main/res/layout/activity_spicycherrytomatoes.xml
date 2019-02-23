@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_spicycherrytomatoes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Spicycherrytomatoes">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Spicy Cherry Tomatoes"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/spicycherrytomatoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:text="Ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\n2 tablespoons EVOO\n
+1 pint cherry tomatoes\n
+3/4 teaspoon crushed red pepper\n
+1 clove garlic, grated\n
+1 tablespoon chopped fresh marjoram\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:text="Method"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\nIn large skillet, heat EVOO over high. Add tomatoes and red pepper;
+cook until blistered, about 10 minutes. Off heat, mix in garlic and marjoram;
+season. Serve as side dish with lamb or chicken."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

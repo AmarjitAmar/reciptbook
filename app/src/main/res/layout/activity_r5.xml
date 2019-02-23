@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R5">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Jamun Yogurt Slush"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/jamun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:text="Ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\nJamuns seeded and lightly mashed 15-20\n
+Yogurt 2 cups\n
+Vanilla essence 1 teaspoon\n
+Lemon juice 2 tablespoons\n
+Powdered sugar 2-3 tablespoons\n
+Ice cubes as required\n
+Honey For topping\n
+Almonds chopped to sprinkle\n
+Pistachios chopped to sprinkle\n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Method"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n
+Put jamuns in individual serving wine glasses upto¼ full.
+Blend together yogurt, vanilla essence, lemon juice and powdered sugar to a smooth mixture. Add some ice cubes and blend again.
+Pour the yogurt mixture on top of jamuns. Drizzle some honey and sprinkle some chopped almonds and pistachios on top.
+Serve immediately.
+"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</LinearLayout>
+</ScrollView>

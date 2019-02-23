@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_papayabarfi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Papayabarfi">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Papaya Barfi Recipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/papayabarfi"
+        android:layout_width="match_parent"
+        android:layout_height="328dp" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\nPapaya ripe, puree 1 cup\n
+Coarse gram flour (besan) ½ cup\n
+Ghee ¾ cup + for greasing\n
+Milk ½ cup\n
+Saffron (kesar) a pinch\n
+Sugar 1 cup\n
+Green cardamom powder ½ teaspoon\n
+Pistachios slivered 10-12\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Method"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="\n
+Grease a barfi tray with some ghee.
+Dry roast gram flour in a non-stick pan on low heat till golden brown. Transfer into a bowl and set aside.
+Put papaya puree in the same pan and cook for 5-10 minutes.
+Heat ghee in another non-stick pan. Add milk, saffron and sugar, mix and bring to a boil.
+Add the roasted gram flour, papaya puree and cardamom powder, mix well and cook till the mixture thickens.
+Pour the mixture into the greased tray, spread evenly, sprinkle pistachios on top and set aside to set for 1 hour.
+Cut into pieces and serve."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

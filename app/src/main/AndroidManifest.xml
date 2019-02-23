@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.first3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Easy Cook "
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Spl" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Listview"
+            android:label="Listview"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListtActivity"
+            android:label="@string/title_activity_listt"
+            android:theme="@style/AppTheme" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Chiness" />
+        <activity android:name=".Franchh" />
+        <activity android:name=".Italiann" />
+        <activity android:name=".KajuMatar" />
+        <activity android:name=".LahoriPaneer" />
+        <activity android:name=".Fetarice" />
+        <activity android:name=".Rawmango" />
+        <activity android:name=".Sarsonsaag" />
+        <activity android:name=".R1" />
+        <activity android:name=".R2" />
+        <activity android:name=".R3" />
+        <activity android:name=".R4" />
+        <activity android:name=".R5" />
+        <activity android:name=".R6" />
+        <activity android:name=".R7" />
+        <activity android:name=".R8" />
+        <activity android:name=".R9" />
+        <activity android:name=".R10" />
+        <activity android:name=".Papayabarfi" />
+        <activity android:name=".Upma" />
+        <activity android:name=".Spicypanner" />
+        <activity android:name=".Jainbread" />
+        <activity android:name=".Chessymasala" />
+        <activity android:name=".Basquecharry" />
+        <activity android:name=".Grochiwith" />
+        <activity android:name=".Spicyling" />
+        <activity android:name=".Threechessy" />
+        <activity android:name=".Rusticpork" />
+        <activity android:name=".Spicycherrytomatoes" />
+        <activity android:name=".CauliflowertossUp" />
+        <activity android:name=".Balsamicberries" />
+        <activity android:name=".Chocolatebananamelts"></activity>
+    </application>
+
+</manifest>

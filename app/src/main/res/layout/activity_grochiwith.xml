@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grochiwith"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Grochiwith">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Gnocchi With Sausage and Spinach"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/gno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="Ingredents"
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n2 9-ounce packages refrigerated gnocchi or one 17.5-ounce package\n shelf-stable gnocchi
+1 tablespoon olive oil \n
+1 medium yellow onion, finely chopped \n
+1 pound Italian sausage, casings removed \n
+1 clove garlic, finely chopped \n
+1 5-ounce bag baby spinach \n
+¼ teaspoon kosher salt \n
+¼ teaspoon black pepper \n
+¾ cup (3 ounces) grated Parmesan, plus more for serving \n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="Method"
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\nCook the gnocchi according to the package directions. Drain, reserving ¼ cup of the cooking liquid.
+Meanwhile, heat the oil in a large skillet over medium heat. Add the onion and cook until softened, about 5 minutes.
+Add the sausage and cook, crumbling it with a spoon, until browned, 5 to 7 minutes.
+Add the garlic, spinach, salt, and pepper and cook, tossing frequently, until the spinach wilts, about 3 minutes.
+Add the gnocchi, the reserved cooking liquid, and the Parmesan and toss. Divide among individual bowls and sprinkle with additional Parmesan."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>
+</ScrollView>

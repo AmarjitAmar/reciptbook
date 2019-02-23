@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R8">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:text="Roasted Garlic and Potato Soup"
+    android:textSize="30dp"
+    android:textColor="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/roastedgarlic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\nGarlic cloves 10-12\n
+Potatoes boiled, peeled and grated 3-4 medium\n
+Oil 1 teaspoon\n
+Butter ¼ cup\n
+Onions chopped 1 cup\n
+Fresh thyme sprigs a few + for garnishing\n
+Refined flour (maida) ¼ cup\n
+Vegetable stock 4 cups\n
+Milk 1 cup\n
+Heavy Cream ¼ cup\n
+Salt to taste\n
+Crushed black peppercorns to taste\n
+Fresh cream for garnishing\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Method"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\n
+Preheat oven to 180°C.
+Spread the garlic cloves on a baking tray and drizzle oil on top. Place the tray in the preheated oven and roast well.
+Heat butter in a non-stick pan. Add onions,thyme and cook for 3-4 minutes or till the onions turn translucent.
+Add flour, mix well and cook for 1minute. Add vegetable stock, milk, cream, salt and crushed peppercorns, stir and bring to a boil. Lower heat and simmer for 2-3 minutes, mixing at intervals.
+Add potatoes and roasted garlic cloves and mix. Blend with a hand blender till smooth.
+Serve warm garnished with some cream and thyme sprig."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

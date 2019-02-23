@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_spicyling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Spicyling">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Spicy Linguine With Clams"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/spicylinguine"
+    android:layout_width="match_parent"
+    android:layout_height="358dp" />
+<TextView
+    android:textSize="25dp"
+    android:text="Ingredent"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n3/4 pound linguine\n
+1/3 cup olive oil \n
+4 cloves garlic, thinly sliced \n
+1 chili pepper (such as serrano or jalapeño), thinly sliced \n
+3/4 cup dry white wine \n
+20 littleneck clams, scrubbed \n
+kosher salt and black pepper \n
+1/4 cup chopped fresh flat-leaf parsley \n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:textSize="25dp"
+        android:text="Method"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\nCook the pasta according to the package directions. Reserve 1 cup of the cooking water; drain the pasta and return it to the pot.
+Meanwhile, heat the oil in a large skillet over medium-high heat. Add the garlic and chili and cook, stirring, until fragrant, about 30 seconds. Add the wine and cook for 1 minute.
+Add the clams, ½ teaspoon salt, and ¼ teaspoon black pepper and cook, covered, until the clams open, 6 to 8 minutes. (Discard any clams that remain closed.)
+Add the clam mixture, ½ cup of the reserved cooking water, and ¼ teaspoon salt to the pasta and cook over medium heat, tossing gently, until the sauce is heated through, 1 to 2 minutes (add more cooking water as needed to loosen the sauce).
+Serve sprinkled with the parsley."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>
+</ScrollView>

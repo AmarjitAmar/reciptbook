@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fetarice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Fetarice">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30dp"
+        android:text="Feta Rice Stuffed Tomatoes Recipe"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:background="@drawable/faterice"
+        android:layout_width="match_parent"
+        android:layout_height="360dp" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+            android:text="\nTomatoes 4 large\n
+Rice soaked ½ cup\n
+Feta cheese crumbled 2 tablespoons\n
+Olive oil 2 tablespoons + for sprinkling\n
+Onion finely chopped 1 small\n
+Tomato puree 1 tablespoon\n
+Fresh parsley chopped 2 tablespoons\n
+Fresh dill (suva) chopped 2 tablespoons\n
+Fresh mint (pudina) chopped 2 tablespoons\n
+Zest of 1 lemon\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:text="Method"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n
+Preheat oven at 180º C.
+Cut the tops of the tomatoes and scoop out the pulp. Reserve the tops and pulp.
+Place the tomato shells on a baking tray, put the tray in the preheated oven and roast till light brown. Remove from oven and set aside.
+Heat olive oil in a non-stick pan. Add onion and sauté till soft.
+Roughly chop the reserved tomato pulp and add along with rice, tomato puree and one cup boiled water and stir to mix.
+Add salt and crushed peppercorns, stir and bring to a boil. Reduce heat and cook for twelve minutes, stirring occasionally.
+Remove from heat, add the parsley, dill, mint leaves and lemon zest and mix well. Add feta cheese and mix again.
+Stuff the cooked rice mixture into the roasted tomato shells and cover with the reserved tops.
+Place them on the baking tray, drizzle some olive oil and cover with aluminium foil. Put the tray in the preheated oven and bake for one hour.
+Serve warm."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

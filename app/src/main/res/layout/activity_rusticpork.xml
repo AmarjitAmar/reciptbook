@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rusticpork"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Rusticpork">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:text="Rustic Pork Ragu:pasta"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/pasta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="Ingredients"
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n2 tablespoons olive oil\n
+1 2 1/2-pound boneless pork loin\n
+2 teaspoons kosher salt\n
+1 teaspoon freshly ground black pepper\n
+1 large onion, chopped\n
+2 sprigs fresh rosemary, leaves picked and chopped\n
+4 cloves garlic, chopped\n
+1 35-ounce can crushed tomatoes with juices\n
+1 pound cooked pappardelle or other flat noodle\n
+grated Romano cheese, to taste\n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="Method"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\nHeat the olive oil in a Dutch oven over medium-high heat. Season the pork with the salt and pepper and sear on all sides until golden brown, 3 to 4 minutes per side. Remove the pork; set aside.
+Add the onion, rosemary, and garlic and cook, stirring, until fragrant, about 2 minutes. Add the tomatoes and their juices and stir with a wooden spoon, scraping any bits of pork stuck to the bottom of the pot. Return the pork to the pot. Bring the liquid to a boil, then reduce heat. Cover the pot tightly and simmer on the stovetop until the pork is tender enough to fall apart, 2 1/2 to 3 hours.
+Remove the pork and, when it is cool enough to handle, shred it into bite-size pieces. Add the shredded pork back to the stockpot. Simmer until hot.
+Serve over the pasta with the Romano sprinkled on top."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</LinearLayout>
+</ScrollView>

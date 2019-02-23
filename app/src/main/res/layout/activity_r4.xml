@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R4">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text=" Kulfi Falooda Recipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/kulfifalood"
+    android:layout_width="match_parent"
+    android:layout_height="363dp" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Ingredients "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\nFalooda vermicelli soaked ½ cup\n
+Milk 2 cups\n
+Readymade kulfi as required\n
+Almonds 1 tablespo for garnishing\n
+Cashewnuts 1 tablespo for garnishing\n
+Pistachios 1 tablespo for garnishing\n
+Castor sugar (caster sugar) ¾ cup\n
+Subza soaked 8 tablespoons\n
+Cherries candied as required\n
+Rose syrup 8 teaspoons\n
+Raisins for garnishing\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Method"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="To make the rabri, heat milk in a non-stick pan till it thickens.
+Add almonds, cashewnuts, pistachios and castor sugar, mix well and cook till the mixture reduces to half. Remove from heat and refrigerate to chill.
+Drain and place a portion of the falooda in individual glass mugs. Add 2 tablespoons subza, top with some kulfi cubes and cherries. Pour some prepared rabri, drizzle 2 teaspoons rose syrup.
+Garnish with almonds, pistachios, cashewnuts, raisins, kulfi piece and a cherry and serve immediately.
+"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

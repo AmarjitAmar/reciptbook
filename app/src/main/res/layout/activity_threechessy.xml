@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_threechessy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.Threechessy">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:text="Three-Cheese Calzones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<ImageView
+    android:background="@drawable/threecheee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="\n1 pound refrigerated pizza dough
+1 cup fresh ricotta \n
+1 cup grated mozzarella (4 ounces) \n
+1/4 cup grated Parmesan (1 ounce) \n
+1 bunch spinach, thick stems removed and roughly chopped (5 cups)\n
+black pepper \n
+1/4 pound thinly sliced salami \n
+2 tablespoons olive oil \n
+1 cup jarred marinara sauce, warmed.\n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:text="Method"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="\nHeat oven to 400° F. On a lightly floured surface, divide the dough into 4 equal portions and roll and stretch them into 8-inch rounds.
+In a large bowl, combine the ricotta, mozzarella, Parmesan, spinach, and ¼ teaspoon pepper.
+Layer the salami on one side of each round of dough and top with the cheese mixture. Fold the dough over the filling and pinch the edges to seal.
+Brush the tops of the calzones with the oil. Transfer to a parchment-lined baking sheet and bake until golden, 12 to 15 minutes. Serve with the sauce."
+    android:layout_width="match_parent"
+    android:textSize="20dp"
+    android:layout_height="match_parent" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

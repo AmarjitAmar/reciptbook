@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_r1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.R1">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Affogato with Orange"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:background="@drawable/affog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView5" />
+    <TextView
+        android:text="Ingredients"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text="\n4 tablespoons orange liqueur, such as Grand Marnier\n
+1 pint vanilla ice cream\n
+shaved bittersweet chocolate, for sprinkling\n
+freshly grated nutmeg, for sprinkling\n
+4 teaspoons orange zest\n
+1/2 cup hot espresso\n"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="Method"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<TextView
+    android:textSize="20dp"
+    android:text="Pour 1 tbsp. liqueur into each of 4 cups. Add 1/2-cup scoop ice cream to each. Sprinkle with chocolate,
+ nutmeg and orange zest. Spoon 2 tbsp. espresso over ice cream. Serve immediately."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
+
+
+</ScrollView>

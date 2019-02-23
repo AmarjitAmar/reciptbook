@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kaju_matar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.first3.KajuMatar">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/head"
+        android:text="Kaju Matar Masala Recipe"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:background="@drawable/kajumatar"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp" />
+<TextView
+    android:text="Ingredients"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:text="
+Cashewnuts peeled and soaked in water 1 cup\n
+Green peas 2 cups\n
+Oil 3 tablespoons\n
+Black peppercorns 4-5\n
+Cloves 2-3\n
+Star anise 1\n
+Cinnamon 1 inch\n
+Coriander seeds 1 teaspoon\n
+Poppy seeds (khuskhus/posto) 1 teaspoon\n
+Onions finely chopped 2 small\n
+Scraped coconut 1 cup\n
+Dried coconut ( khopra) ½ cup\n
+Salt to taste\n
+Red chilli powder 1 teaspoon\n
+Turmeric powder ½ teaspoon\n
+Garam masala powder 1 teaspoon\n
+Tamarind paste 1 teaspoon\n"
+android:layout_gravity="left"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+     android:text="Method"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<TextView
+    android:text="\n
+
+Heat 2 tablespoons in a non-stick pan. Add peppercorns, cloves, star anise, cinnamon and coriander seeds and let them splutter. Add poppy seeds and mix well. Add half the onions and roast till onions turn brown.Add coconut, mix well and roast till the coconut turns brown. Add dried coconut and mix well stirring continuously. Remove from heat, cool and grind into a fine paste using water as required.
+Heat the remaining oil in a deep non-stick pan. Add the remaining onions, mix and saute till onions turn pink. Add green peas and cashewnuts and mix well.Add salt, red chilli powder, turmeric powder and garam masala powder and mix well. Add sufficient water, cover and simmer for 5-10 minutes.Add ground paste and mix well. Cover and simmer for 5-10 minutes or till the gravy thickens.Add tamarind paste, mix well, cover and cook for 2 minutes.Serve hot.
+"
+    android:layout_width="wrap_content"
+    android:textSize="20dp"
+    android:layout_gravity="left"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+</ScrollView>
